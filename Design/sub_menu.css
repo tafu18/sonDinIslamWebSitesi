@@ -1,0 +1,109 @@
+/*font-family: 'Changa', sans-serif;
+font-family: 'Dancing Script', cursive;*/
+body{
+	padding: 0;
+	margin: 0;
+	background: url(https://img.freepik.com/free-vector/seamless-arabic-geometric-ornament-brown-color-arabic-style_117445-137.jpg?size=338&ext=jpg);
+
+}
+div.topContent{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	background: beige;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+}
+div.content{
+	width: 55%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 35%;
+}
+
+div.containerMenu{
+	display: inline-block;
+	float: left;
+	width: 160px;
+	height: 200px;
+	background: beige;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+
+}
+div.containerMenu:hover{
+	background: rgba(62,135,99,0.5)
+}
+div.menu{
+	width: 150px;
+	height: 150px;
+	background: #f5f2e1;
+	text-align: center;
+	margin: auto;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+
+}
+div.menu img.foto{
+	width: 150px;
+	height: 150px;
+}
+
+h3{
+	font-size: 20px;
+	font-style: sans-serif;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+img.solYanReklam{
+	position: absolute;
+	left: 3%;
+	top: 25%;
+}
+img.solYanReklam2{
+	position: absolute;
+	left: 3%;
+	top: 50%;
+}
+img.sagYanReklam{
+	position: absolute;
+	float: right;
+	right: 3%;
+	top: 25%;
+}
+img.sagYanReklam2{
+	position: absolute;
+	float: right;
+	right: 3%;
+	top: 50%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	div.reklam{
+		display: none;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	div.content{
+		width: 100%;
+	}
+	div.topContent{
+		width: 100%;
+		margin: auto;
+	}
+
+
+
+
+}

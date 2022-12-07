@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(https://img.freepik.com/free-vector/seamless-arabic-geometric-ornament-brown-color-arabic-style_117445-137.jpg?size=338&ext=jpg);
+}
+div.topContent{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	background: beige;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+}
+div.container{
+	width: 90%;
+	margin: auto;
+	z-index: 0;
+}
+div.subcontainer{
+	width: 100%;
+}
+div.containerbar{
+	margin: 0px 9px;
+	padding: 0px 15px;
+	height: 25px;
+	transition: height 300ms, padding-top 300ms;
+	margin-bottom: 5%;
+}
+div.leftcontent{
+	position: relative;
+	width: 55%;
+	padding: 2%;
+	margin: auto;
+	background: beige;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+	text-align: justify;
+	float: left;
+}
+div.rightcontent{
+	width: auto;
+	float: left;
+	height: auto;
+	margin-left: 3%;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+	text-align: justify;
+}
+img.solYanReklam{
+	position: absolute;
+	left: 3%;
+	top: 25%;
+}
+img.solYanReklam2{
+	position: absolute;
+	left: 3%;
+	top: 50%;
+}
+img.sagYanReklam{
+	position: absolute;
+	float: right;
+	right: 3%;
+	top: 25%;
+}
+img.sagYanReklam2{
+	position: absolute;
+	float: right;
+	right: 3%;
+	top: 50%;
+}
+h2.top{
+	margin: auto;
+	margin-bottom: 3%;
+	width: 50%;
+	color: #bddeec;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow:  1px 2px 1px black;
+	background: grey;
+}
+div.rightcontent b{
+	font-size: 20px;
+	background: lightgrey;
+}
+
+@media only screen and (max-width: 768px){
+	div.reklam{
+		display: none;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+}

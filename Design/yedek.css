@@ -1,0 +1,56 @@
+h2.mesa{
+	margin: auto;
+    margin-bottom: 1%;
+    width: 100%;
+    color: #bddeec;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px 2px 1px black;
+    background: grey;
+}
+
+
+div.altmesaj{
+	margin: auto;
+}
+div.mesaj{
+	width: 70%;
+	height: 350px;
+	margin: auto;
+	background: grey;
+	border: 1px solid black;
+	box-shadow: 4px 4px 4px black;
+}
+div.container{
+	text-align: center;
+}
+
+
+textarea {
+	resize: none;
+	width: 180%;
+	border: 1px;
+	border-radius: 05px;
+	padding: 8px 15px 8px 18px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 1px 1px 2px 1px black;
+
+}
+input.inp{
+	width: 80%;
+	border: 1px;
+	border-radius: 05px;
+	padding: 8px 15px 8px 18px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 1px 1px 2px 1px black;
+}
+h2{
+	margin: auto;
+	margin-bottom: 1%;
+	width: 100%;
+	color: #bddeec;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow:  1px 2px 1px black;
+	background: grey;
+}

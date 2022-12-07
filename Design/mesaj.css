@@ -1,0 +1,60 @@
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+		background: url(https://img.freepik.com/free-vector/seamless-arabic-geometric-ornament-brown-color-arabic-style_117445-137.jpg?size=338&ext=jpg);
+}
+div.topContent{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	background: beige;
+	border: 1px solid black;
+	box-shadow: 3px 3px 4px black;
+}
+div.mesaj{
+	text-align: center;
+}
+table{
+	margin: auto;
+	text-align: center;
+}
+
+img.solYanReklam{
+	position: absolute;
+	left: 3%;
+	top: 25%;
+}
+img.solYanReklam2{
+	position: absolute;
+	left: 3%;
+	top: 50%;
+}
+img.sagYanReklam{
+	position: absolute;
+	float: right;
+	right: 3%;
+	top: 25%;
+}
+img.sagYanReklam2{
+	position: absolute;
+	float: right;
+	right: 3%;
+	top: 50%;
+}
+@media only screen and (max-width: 768px){
+	div.reklam{
+		display: none;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	div.mesaj{
+		width: 100%;
+	}
+	div.topContent{
+		width: 100%;
+		margin: auto;
+	}
+
+}

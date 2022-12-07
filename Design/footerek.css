@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div.footer{
+	position: relative;
+	left: 0%;
+    clear:both;
+	background: darkkhaki;
+	width: 100%;
+	color: lightblue;
+	font-family: sans-serif;
+	margin: auto;
+}
+div.cont{
+	width: 70%;
+	margin: auto;
+	border: 1px solid black;
+	box-shadow: 4px 4px 4px black;
+	margin-bottom: 2%;
+}
+div.cont ul.uli {
+
+	margin: auto;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #2c3e50;
+}
+
+ul.uli li{
+	margin-left: 5%;
+	display: inline-block;
+	list-style: none;
+    vertical-align: top;
+}
+
+ul.uli li a{
+	color: white;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+}
+
+ul.uli li a:hover{
+	color: #b9b9b9;
+
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 100%;
+    color: #2c3e50;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px 2px 1px black;
+    background: whitesmoke;
+}
+h2.mesa{
+	margin: auto;
+    margin-bottom: 1%;
+    width: 100%;
+    color: #bddeec;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px 2px 1px black;
+    background: grey;
+}
+
+div.mesaji{
+	width: 70%;
+	margin: auto;
+	border: 1px solid black;
+	box-shadow: 4px 4px 4px black;
+	margin-bottom: 2%;
+}
+div.mesaji ul.muli {
+
+	margin: auto;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #2c3e50;
+}
+div.mesaji ul.muli{
+	margin-left: 5%;
+	display: inline-block;
+	list-style: none;
+    vertical-align: top;
+}
+
+ul.muli li a{
+	color: white;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+}
+
+ul.muli li a:hover{
+	color: #b9b9b9;
+
+}
+
+@media only screen and (max-width: 768px){
+	div.footer{
+		height: 50%;
+		
+	}
+
+	div.mesaj{
+		height: 280px !important;
+	}
+	textarea{
+		width: 160% !important;
+	}
+	input.inp{
+		width: 70% !important;
+	}
+	h2{
+		font-size: 20px;
+	}
+	input.sub{
+		width: 185% !important;
+	}
+}
+
+div.altmesaj{
+	margin: auto;
+}
+div.mesaj{
+	width: 70%;
+	height: 350px;
+	margin: auto;
+	background: grey;
+	border: 1px solid black;
+	box-shadow: 4px 4px 4px black;
+}
+div.container{
+	text-align: center;
+}
+
+
+textarea {
+	resize: none;
+	width: 180%;
+	border: 1px;
+	border-radius: 05px;
+	padding: 8px 15px 8px 18px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 1px 1px 2px 1px black;
+
+}
+input.inp{
+	width: 80%;
+	border: 1px;
+	border-radius: 05px;
+	padding: 8px 15px 8px 18px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 1px 1px 2px 1px black;
+}
+h2{
+	margin: auto;
+	margin-bottom: 1%;
+	width: 100%;
+	color: #bddeec;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow:  1px 2px 1px black;
+	background: grey;
+}

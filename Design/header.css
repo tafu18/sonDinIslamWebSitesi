@@ -1,0 +1,48 @@
+div.head{
+    width: 100%;
+    height: 150px;
+    background: darkkhaki;
+    margin: auto;
+}
+div.head img{
+    margin: 1.5%;
+    width: 156px;
+    height: 156px;
+}
+div.head img.mko{
+    float: right;
+    margin: 1.5%;
+}
+label.title{
+    position: absolute;
+    left: 37%;
+    top: 10%;
+    color: midnightblue;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    background: khaki;
+    border-radius: 25%;
+}
+@media only screen and (max-width: 768px){
+    div.head img.mko{
+        display: none;
+    }
+    div.head{
+        width: 100%;
+        height: 100px;
+    }
+    div.head img{
+        margin: .5%;
+        width: 78px;
+        height: 78px;
+    }
+
+    label.title{
+        top: 8.5%;
+        left: 25%;
+        font-size: 25px;
+        border-radius: 25%;
+    }
+}

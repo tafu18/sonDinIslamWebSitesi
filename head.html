@@ -1,0 +1,50 @@
+<link rel="stylesheet" type="text/css" href="Design/header.css"/>
+<link rel="stylesheet" type="text/css" href="Design/sideBar.css">
+<link rel="stylesheet" type="text/css" href="Design/dropMenu.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+	
+
+	<input type="checkbox" id="check">
+	<label class="buton" for="check">
+		<i class="fas fa-bars" id="btn">Menüyü Aç</i>
+		<i class="fas fa-times" id="cancel"></i>
+	</label>
+
+	<div  class="sidebar">
+		<header><a href="main_menu.php"><label class="main_menu"> Ana Sayfa </label></a></header>
+		<ul class="nav">
+	<?php
+            include 'db.php';
+
+			$icerik = $db->query("SELECT * FROM baslik ORDER BY baslik ASC");
+			$icerikAl = $icerik->fetchAll(PDO::FETCH_ASSOC);
+			$icerikler = [];
+			foreach ($icerikAl as $icer) array_push($icerikler, $icer);
+			foreach ($icerikler as $content) {
+				$elem = '<li class="navi"><a href="sub_menu.php?id=' . $content['id'] . '">
+      		            <h4>' . $content['baslik'] .'</h4></a></li>'; 
+				echo $elem;
+			}
+		?>
+
+ 		</ul>
+  	</div>
+
+	<div class="tophead">
+		
+	</div>
+	<div class="head">
+		<a href="main_menu.php"><img src="Image/logo.png"></a>
+		<label class="title">SON DİN İSLAM</label>
+		<a href="main_menu.php"><img class="mko" src="Image/logo.png"></a>
+	</div>
+    <div class="header">
+        <ul class="head">
+            <?php 
+                foreach ($icerikler as $contents) {
+                    $ele = '<li class="hvr-overline-from-center"> <a href="sub_menu.php?id='. $contents['id'] .'">' . $contents['baslik'] . '</a>';
+                    echo $ele;
+                }
+            ?>
+        </ul>
+    </div>

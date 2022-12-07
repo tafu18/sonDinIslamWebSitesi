@@ -1,0 +1,1 @@
+   var angularMaterial = angular.module('BlankApp', ['ngMaterial', 'ngMessages']);

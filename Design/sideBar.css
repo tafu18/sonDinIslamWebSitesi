@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #f5f2e1;
+    z-index: 1000;
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background: #2c3e50;
+    user-select: none;
+}
+.sidebar ul.nav a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(98,82,92,0.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul.nav li.navi {
+    height: 65px;
+}
+ul.nav li.navi:hover a{
+    padding-left: 50px;
+}
+
+#check{
+    display: none;
+}
+label.buton i#btn, label.buton i#cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #B9C3BA;
+    border-radius: 3px;
+}
+label.buton i#btn{
+    left: 10px;
+    top: 5px;
+    font-size: 35px;
+    color: black;
+    padding-left: 6px 12px;
+    transition: all .5s;
+}
+label.buton i#cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: black;
+    padding-left: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label.buton i#btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+#check:checked ~ label.buton i#cancel{
+    left: 195px;
+}
+label.main_menu{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        color: white;
+        cursor: pointer; 
+}
